@@ -150,6 +150,10 @@ PRODUCT_PACKAGES += \
     AicpExtras \
     TilesWallpaper
 
+# Snap Camera
+PRODUCT_PACKAGES += \
+    Snap
+    
 include packages/overlays/AICP/product_packages.mk
 
 # Extra tools
